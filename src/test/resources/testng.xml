@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MMM Test Automation Suite" >
+
+<!-- All tests will show in Report  -->
+
+
+ 
+<test verbose="1" name="Login Test">
+    <classes>
+        
+       <class name="TestingXperts.MMM.tests.login.TC_MMM_4630"/>   
+       <class name="TestingXperts.MMM.tests.login.TC_MMM_5199"/>  
+       <class name="TestingXperts.MMM.tests.login.TC_MMM_7623"/> 
+       <class name="TestingXperts.MMM.tests.login.TC_MMM_8888"/> 
+      
+      
+       
+        </classes>
+  </test> 
+  
+</suite> <!-- Default suite -->
